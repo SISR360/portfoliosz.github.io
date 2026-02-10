@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio BTS SIO SISR — Projets</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-projets">
+  <a href="#contenu" class="skip-link">Aller au contenu principal</a>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">SISR</span>
+        <span class="brand-text">
+          <span class="brand-title">Portfolio BTS&nbsp;SIO&nbsp;SISR</span>
+          <span class="brand-subtitle">Solutions d'Infrastructure, Systèmes et Réseaux</span>
+        </span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir la navigation">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+      </label>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+		  <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a class="is-active" href="projets.html">Projets</a></li>
+          <li><a href="stage.html">Stages</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="lab.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contenu" class="site-main">
+    <section class="page-header">
+      <div class="container header-grid">
+        <div>
+          <p class="eyebrow">Études de cas</p>
+          <h1>Projets menés durant la formation</h1>
+          <p class="lead">Chaque projet illustre la méthode appliquée : étude de cas, réflexion, conception, implémentation, tests et documentation.</p>
+        </div>
+        <ul class="highlight-list">
+          <li><strong>13</strong> projets évalués en BTS SIO</li>
+          <li>Infrastructures virtualisées</li>
+          <li>Livrables documentés</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container section-stack">
+        <header class="section-header">
+          <h2>Projets structurants</h2>
+          <p>Une sélection de cas concrets reflétant ma progression en administration systèmes et réseaux.</p>
+        </header>
+
+        <div class="project-grid">
+            <article class="project-card">
+            <header>
+              <p class="eyebrow">Administration</p>
+              <h3>Projet Netflix (Windows Server)</h3>
+            </header>
+
+            <div class="project-image-container">
+              <a href="documents/CompteRendu_Netflix.pdf" target="_blank" title="Voir le rapport complet">
+                <img src="images/Winserver.jpg" alt="Windows Server Netflix" class="project-image">
+              </a>
+            </div>
+
+            <ul class="project-points">
+              <li>Installation de deux serveurs avec système d'auto-basculement.</li>
+              <li>Installation des services AD, DNS, DHCP, NTFS.</li>
+              <li>Scripts, GPO, création d'utilisateurs/groupes...</li>
+            </ul>
+
+            <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+              <a href="documents/Projet-2-Windows-Server.docx.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                📄 Énoncé du projet
+              </a>
+              <a href="documents/CompteRendu_Netflix.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                🚀 Travail Réalisé
+              </a>
+            </div>
+
+            <footer class="project-meta">
+              <span class="badge">Windows Server 2022</span>
+              <span class="badge">PowerShell</span>
+              <span class="badge">VirtualBox</span>
+            </footer>
+          </article>
+
+
+
+          <article class="project-card" >
+            <header>
+              <p class="eyebrow">Supervision</p>
+              <h3>Observabilité et alerting avec Nagios</h3>
+            </header>
+  
+            <div class="project-image-container">
+              <a href="documents/ProjetSupervision/CompteRendu_Supervision.pdf" target="_blank" title="Voir le rapport complet">
+                <img src="images/Nagios-Logo1.jpg" alt="Nagios" class="project-image">
+              </a>
+            </div>
+
+            <ul class="project-points">
+              <li>Supervision d'une infrastructure : Windows Server, Switch, Borne Wifi.</li>
+              <li>Paramétrage d'un plan d'escalade des alertes.</li>
+              <li>Analyse des indicateurs de disponibilité pour proposer des actions correctives.</li>
+            </ul>
+
+            <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+              <a href="documents/ProjetSupervision/Projet-3-Supervision.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                📄 Énoncé du projet
+              </a>
+              <a href="documents/ProjetSupervision/CompteRendu_Supervision.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                🚀 Travail Réalisé
+              </a>
+            </div>
+
+            <footer class="project-meta">
+              <span class="badge">Nagios</span>
+              <span class="badge">Debian</span>
+              <span class="badge">VirtualBox</span>
+              <span class="badge">B1.2/B1.4</span>
+            </footer>
+          </article>
+
+          <article class="project-card">
+            <header>
+              <p class="eyebrow">Gestion de parc informatique</p>
+              <h3>GLPI</h3>
+            </header>
+
+            <div class="project-image-container">
+              <a href="documents/ProjetGlpi/TP - GLPI-cr.pdf" target="_blank" title="Voir le rapport complet">
+                <img src="images/GLPI3.png" alt="GLPI" class="project-image">
+              </a>
+            </div>
+          
+            <ul class="project-points">
+              <li>Identifier les responsabilités et les outils du gestionnaire de parc informatique.</li>
+              <li>Inventorier et organiser le matériel informatique dans GLPI.</li>
+              <li>Mettre en place la gestion financière et administrative du parc.</li>
+            </ul>
+
+            <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+              <a href="documents/ProjetGlpi/TP - GLPI-enonce.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                📄 Énoncé du projet
+              </a>
+              <a href="documents/ProjetGlpi/TP - GLPI-cr.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                🚀 Travail Réalisé
+              </a>
+            </div>
+
+            <footer class="project-meta">
+              <span class="badge">VirtualBox</span>
+              <span class="badge">GLPI</span>
+              <span class="badge">Debian/Linux</span>
+              <span class="badge">B1.1</span>
+            </footer>
+          </article>
+          
+          <article class="project-card">
+            <header>
+              <p class="eyebrow">Systèmes & Réseaux</p>
+              <h3>Projet Serveur NAS</h3>
+            </header>
+
+            <div class="project-image-container">
+              <a href="documents/ProjetNAS/ProjetNAS-compterendu.pdf" target="_blank" title="Voir le rapport complet">
+                <img src="images/srvNas.jpg " alt="WordPress" class="project-image">
+              </a>
+            </div>
+    
+            <ul class="project-points">
+              <li>Installation d'un serveur NAS.</li>
+              <li>Configuration des utilisateurs et les groupes selon un cahier des charges défini.</li>
+              <li>Attribution des droits et autorisations.</li>
+              <p>      </p>
+            </ul>
+
+            <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+              <a href="documents/ProjetNAS/Projet1-Serveur-NAS-enonce.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                📄 Énoncé du projet
+              </a>
+              <a href="documents/ProjetNAS/ProjetNAS-compterendu.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                🚀 Travail Réalisé
+              </a>
+            </div>
+
+            <footer class="project-meta">
+              <span class="badge">WordPress</span>
+              <span class="badge">LWS</span>
+              <span class="badge">B1.4/B1.5</span>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <section class="content-section no-pad-top">
+        <div class="container section-stack">
+
+          <div class="project-grid">
+              <article class="project-card">
+              <header>
+                <p class="eyebrow">Systèmes & Réseaux</p>
+                <h3>Les sauvegardes</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/lesSauvegardes/Projet-Sauvegardes-cr.pdf" target="_blank" title="Voir le rapport complet">
+                  <img src="images/sauvegardes.jpg" alt="Windows Server Netflix" class="project-image">
+                </a>
+              </div>
+
+              <ul class="project-points">
+                <li>Initiation au types de sauvegardes.</li>
+                <li>Sauvegardes incrémentielles, différentielles et complètes.</li>
+                <li>Cobian Backup</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/lesSauvegardes/Projet-Sauvegardes.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/lesSauvegardes/Projet-Sauvegardes-cr.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">Windows Server 2022</span>
+                <span class="badge">Cobian Backup</span>
+                <span class="badge">B1.5</span>
+              </footer>
+            </article>
+
+
+
+            <article class="project-card" >
+              <header>
+                <p class="eyebrow">Veille</p>
+                <h3>La veille technologique</h3>
+              </header>
+    
+              <div class="project-image-container">
+                <a href="documents/VeilleTechnologique/Oral_resauxFAI.pptx" target="_blank" title="Voir le rapport complet">
+                  <img src="images/veille.jpg" alt="Nagios" class="project-image">
+                </a>
+              </div>
+
+              <ul class="project-points">
+                <li>Réalisation d'une veille informatique sur les réseaux FAI.</li>
+                <li>Mise en œuvre des stratégies de veille.</li>
+                <li>Diaporama et présentation.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/VeilleTechnologique/Enoncé-VeilleTech.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/VeilleTechnologique/Oral_resauxFAI.pptx" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">PowerPoint</span>
+                <span class="badge">Recherches</span>
+                <span class="badge">Veille</span>
+                <span class="badge">B1.6</span>
+              </footer>
+            </article>
+
+            <article class="project-card">
+              <header>
+                <p class="eyebrow">Développement</p>
+                <h3>Anomalie Linketrz</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/AnomalieLinkretz/Anomalie_cr.pdf" target="_blank" title="Voir le rapport complet">
+                  <img src="images/linketrz.jpg" alt="GLPI" class="project-image">
+                </a>
+              </div>
+            
+              <ul class="project-points">
+                <li>Correction d'un site web codé en HTML/CSS.</li>
+                <li>Réponse aux incidents et aux demandes d’assistance et d’évolution.</li>
+                <li>Amélioration de l’accessibilité.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/AnomalieLinkretz/SISR_appliWeb_statique_anomalies.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/AnomalieLinkretz/Anomalie_cr.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">VirtualBox</span>
+                <span class="badge">GLPI</span>
+                <span class="badge">Debian/Linux</span>
+                <span class="badge">B1.2</span>
+              </footer>
+            </article>
+            
+            <article class="project-card">
+              <header>
+                <p class="eyebrow">Développement</p>
+                <h3>Site WordPress</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/#" target="_blank" title="Voir le rapport complet">
+                  <img src="images/WORDpress.jpg" alt="WordPress" class="project-image">
+                </a>
+              </div>
+      
+              <ul class="project-points">
+                <li>Mettre en ligne WordPress sur un hébergeur.</li>
+                <li>Prendre en main l’administration WordPress.</li>
+                <li>Optimiser et configurer le thème et les extensions d’un site WordPress.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/Bobocal_wordpress/Site_Bococal_WordPress-enonce.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/#" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">WordPress</span>
+                <span class="badge">LWS</span>
+                <span class="badge">B1.4 Travail en mode projet</span>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="content-section">
+      <section class="content-section no-pad-top">
+        <div class="container section-stack">
+
+          <div class="project-grid">
+              <article class="project-card">
+              <header>
+                <p class="eyebrow">Système</p>
+                <h3>Initiation sur Debian</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/InitiationDebian/#" target="_blank" title="Voir le rapport complet">
+                  <img src="images/linux.jpg" alt="Windows Server Netflix" class="project-image">
+                </a>
+              </div>
+
+              <ul class="project-points">
+                <li>Installation et configuration.</li>
+                <li>Commandes linux.</li>
+                <li>Apréhension de l'environnement.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/InitiationDebian/TP_Virtualisation_Linux.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/#" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">Debian</span>
+                <span class="badge">Linux</span>
+                <span class="badge">Bash</span>
+                <span class="badge">B1.6</span>
+              </footer>
+            </article>
+
+
+
+            <article class="project-card" >
+              <header>
+                <p class="eyebrow">Système</p>
+                <h3>Initiation sur Ubuntu</h3>
+              </header>
+    
+              <div class="project-image-container">
+                <a href="documents/#" target="_blank" title="Voir le rapport complet">
+                  <img src="images/debian.jpg" alt="Nagios" class="project-image">
+                </a>
+              </div>
+
+              <ul class="project-points">
+                <li>Installation et configuration.</li>
+                <li>Commandes linux.</li>
+                <li>Apréhension de l'environnement.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/InitiationUbuntu/TP_Virtualisation_Linux.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/#" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">Ubuntu</span>
+                <span class="badge">Linux</span>
+                <span class="badge">Bash</span>
+                <span class="badge">B1.6</span>
+              </footer>
+            </article>
+
+            <article class="project-card">
+              <header>
+                <p class="eyebrow">Développement</p>
+                <h3>Réalisation d'un programme C#</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/TP_LocationSalle/TPlocationSalle-cr.pdf" target="_blank" title="Voir le rapport complet">
+                  <img src="images/csharp.jpg" alt="GLPI" class="project-image">
+                </a>
+              </div>
+            
+              <ul class="project-points">
+                <li>Programme de réservation de salle.</li>
+                <li>Evolution du programme.</li>
+                <li>Test réalisés / Jeux d'essais</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/TP_LocationSalle/locationSalle_enonce.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/TP_LocationSalle/TPlocationSalle-cr.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">Programmation</span>
+                <span class="badge">C#</span>
+                <span class="badge">Visual Studio</span>
+                <span class="badge">B1.2</span>
+              </footer>
+            </article>
+            
+            <article class="project-card">
+              <header>
+                <p class="eyebrow">Cybersécurité</p>
+                <h3>Charte informatique</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/CharteIT/bonnes_pratiques_charteIT_TP_cr.pdf" target="_blank" title="Voir le rapport complet">
+                  <img src="images/charteIT.jpg" alt="WordPress" class="project-image">
+                </a>
+              </div>
+      
+              <ul class="project-points">
+                <li>Confirmité des situations professionnelles.</li>
+                <li>Respect des règles d'utilisation.</li>
+                <li>Sensibilisation des utilisateurs.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/CharteIT/enonce-CharteIT.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/CharteIT/bonnes_pratiques_charteIT_TP_cr.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">Google Docs</span>
+                <span class="badge">B1.1 Gestion patrimoine informatique</span>
+              </footer>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="content-section projet-supplementaire">
+        <div class="container section-stack">
+          <div class="project-grid">
+            <article class="project-card">
+              <header>
+                <p class="eyebrow">Bonnes Pratiques</p>
+                <h3>Respecter une charte de nommage</h3>
+              </header>
+
+              <div class="project-image-container">
+                <a href="documents/Charte_Nommage/TP_Lavanya-charteNommage.pdf" target="_blank" title="Voir le rapport complet">
+                  <img src="images/charte.jpg" alt="Description de l'image" class="project-image">
+                </a>
+              </div>
+
+              <ul class="project-points">
+                <li>Charte de nommage de l'entreprise.</li>
+                <li>Vérification de son application sur les fichiers et dossiers.</li>
+                <li>Normes informatiques.</li>
+              </ul>
+
+              <div class="project-actions" style="margin-top: 15px; display: flex; gap: 10px;">
+                <a href="documents/Charte_Nommage/Enonce-charte-nommage.pdf" target="_blank" class="badge" style="background: rgba(255,255,255,0.1); border: 1px solid var(--color-border); cursor: pointer; text-decoration: none;">
+                  📄 Énoncé du projet
+                </a>
+                <a href="documents/Charte_Nommage/TP_Lavanya-charteNommage.pdf" target="_blank" class="badge" style="background: var(--color-primary); color: white; cursor: pointer; text-decoration: none;">
+                  🚀 Travail Réalisé
+                </a>
+              </div>
+
+              <footer class="project-meta">
+                <span class="badge">GoogleDocs</span>
+                <span class="badge">Messagerie</span>
+                <span class="badge">B1.1</span>
+              </footer>
+            </article>
+          </div>
+        </div>
+    </section>
+  </section>
+
+
+
+
+    <section class="content-section alt">
+      <div class="container section-stack">
+        <header class="section-header">
+          <h2>Méthode de conduite de projet</h2>
+          <p>Une approche méthodique et minutieuse, documentée à chaque étape pour assurer la traçabilité.</p>
+        </header>
+        <div class="process-grid">
+          <article class="step">
+            <span class="step-index">1</span>
+            <h3>Analyse</h3>
+            <p>Compréhension du besoin, recueil des contraintes techniques et préparation du cahier des charges.</p>
+          </article>
+          <article class="step">
+            <span class="step-index">2</span>
+            <h3>Conception</h3>
+            <p>Modélisation de l'architecture cible, choix des technologies et planification des ressources.</p>
+          </article>
+          <article class="step">
+            <span class="step-index">3</span>
+            <h3>Réalisation</h3>
+            <p>Configuration, automatisation, tests unitaires et validation.</p>
+          </article>
+          <article class="step">
+            <span class="step-index">4</span>
+            <h3>Conclusion</h3>
+            <p>Documentation, transfert de compétences et préparation des axes d'amélioration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-panel">
+        <div>
+          <h2>Envie de discuter d'un projet&nbsp;?</h2>
+          <p>Contactez-moi pour obtenir davantage de détails techniques ou les livrables complets.</p>
+        </div>
+        <a class="btn primary" href="contact.html">Me contacter</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-title">Portfolio BTS&nbsp;SIO&nbsp;SISR</p>
+        <p>&copy; 2026 Ziafat Sayed-Ateeb. Tous droits réservés.</p>
+      </div>
+      <div>
+        <p class="footer-title">Navigation rapide</p>
+        <ul class="footer-links">
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="stage.html">Stages</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="lab.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
